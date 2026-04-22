@@ -1,2 +1,98 @@
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+vendor/
+
+# ==============================
+# Build output (keep dist tracked
+# so WordPress can serve the bundle
+# without a server-side build step.
+# Uncomment the line below if you
+# run builds in CI instead.)
+# ==============================
+# assets/js/dist/
+
+# ==============================
+# OS & editor noise
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================
+# IDE / editor config
+# ==============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# WordPress uploads & cache
+# (should not live inside a theme,
+# but guard against accidental moves)
+# ==============================
+uploads/
+cache/
+ai1wm-backups/
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
 wp-content/ai1wm-backups/
-wp-content/ai1wm-backups/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# ==============================
+# WordPress sensitive config
+# ==============================
+wp-config.php
+wp-config-local.php
+.env
+.env.*
+!.env.example
+
+# ==============================
+# WordPress auto-generated files
+# ==============================
+wp-content/debug.log
+debug.log
+error_log
+*.log
+
+# ==============================
+# WordPress core (not needed in
+# a theme repo)
+# ==============================
+wp-admin/
+wp-includes/
+
+# ==============================
+# Package manager lock files
+# (keep package-lock.json / yarn.lock
+# tracked – comment out if you prefer
+# not to track them)
+# ==============================
+# package-lock.json
+# yarn.lock
+
+# ==============================
+# Sass/LESS cache
+# ==============================
+.sass-cache/
+*.css.map
+*.scss.map
+
+# ==============================
+# Miscellaneous
+# ==============================
+*.bak
+*.orig
+*.tmp
+*.swp
+*~
