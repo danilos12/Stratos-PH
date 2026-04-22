@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'FSMatthewBold';
+    src: url('FSMatthew-Bold.eot');
+    src: url('FSMatthew-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FSMatthew-Bold.woff2') format('woff2'),
+        url('FSMatthew-Bold.woff') format('woff'),
+        url('FSMatthew-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamUltra';
+    src: url('GothamUltra.eot');
+    src: url('GothamUltra.eot?#iefix') format('embedded-opentype'),
+        url('GothamUltra.woff2') format('woff2'),
+        url('GothamUltra.woff') format('woff'),
+        url('GothamUltra.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FSMatthewReg';
+    src: url('FSMatthew.eot');
+    src: url('FSMatthew.eot?#iefix') format('embedded-opentype'),
+        url('FSMatthew.woff2') format('woff2'),
+        url('FSMatthew.woff') format('woff'),
+        url('FSMatthew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FSMatthewMed';
+    src: url('FSMatthew-Medium.eot');
+    src: url('FSMatthew-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FSMatthew-Medium.woff2') format('woff2'),
+        url('FSMatthew-Medium.woff') format('woff'),
+        url('FSMatthew-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FSMatthewLight';
+    src: url('FSMatthew-Light.eot');
+    src: url('FSMatthew-Light.eot?#iefix') format('embedded-opentype'),
+        url('FSMatthew-Light.woff2') format('woff2'),
+        url('FSMatthew-Light.woff') format('woff'),
+        url('FSMatthew-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('Gotham-Bold.eot');
+    src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff'),
+        url('Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
